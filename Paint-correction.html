@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interior Car Detailing</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin: 0 15px;
+  position: relative;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Dropdown menu styles */
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000;
+  padding: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  min-width: 150px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+nav ul li ul li:last-child {
+  border-bottom: none;
+}
+
+nav ul li ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li ul li a:hover {
+  background-color: #444;
+}
+
+/* Highlighted button */
+.highlight-btn {
+  background-color: #ff5722;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.highlight-btn:hover {
+  background-color: #ff784e;
+}
+
+.highlight-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main Content Section */
+.main-content {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content .left {
+  width: 45%;
+}
+
+.main-content .left img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.main-content .right {
+  width: 45%;
+}
+
+.main-content .right h1 {
+  font-size: 2rem;
+  color: #00509e;
+  margin-bottom: 20px;
+}
+
+.main-content .right p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Article Section */
+h1, h2 {
+  color: #0077c8;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #0077c8;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .left, footer .right {
+  width: 45%;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .main-content .left, .main-content .right {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+    a {
+  text-decoration: none;
+}
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo"><img src="logo.png" width="200"></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Services</a>
+          <ul>
+            <li><a href="Ceramic-Coating-Miami.html">Ceramic Coating Miami</a></li>
+            <li><a href="Paint-correction.html">Paint Correction</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact Us</a></li>
+      
+      </ul>
+      <button class="highlight-btn"><a href="https://soflosuds.com/contact/#contact-form" target="_blank" > BOOK ONLINE</a></button>
+    </nav>
+  </header>
+
+  
+
+  <h1>Restore Your Vehicle’s Original Shine with Professional Paint Correction in Miami, FL</h1>
+  <p>At Soflo SudsAuto Detailing and <a href="Ceramic-Coating-Miami.html">Ceramic Coating</a>, we specialize in paint correction services that transform dull, scratched, and oxidized paint into a flawless, showroom-quality finish. Miami’s harsh sun, road debris, and environmental factors can take a toll on your car’s paint over time, but our paint correction process will revive your vehicle’s appearance and protect it from further damage.</p>
+
+  <h2>What is Paint Correction?</h2>
+  <p>Paint correction is the process of removing imperfections from your vehicle’s paintwork, such as:</p>
+  <ul>
+      <li>Swirl Marks</li>
+      <li>Fine Scratches</li>
+      <li>Water Spots</li>
+      <li>Oxidation</li>
+      <li>Holograms from Improper Buffing</li>
+  </ul>
+  <p>Using specialized compounds and polishing techniques, our expert technicians carefully restore your vehicle’s paint to a smooth and glossy finish. The result is a car that not only looks new again but also feels silky smooth to the touch.</p>
+
+  <h2>The Paint Correction Process</h2>
+  <ul>
+      <li><strong>Comprehensive Inspection:</strong> We begin by assessing your vehicle’s paint to determine the level of correction required.</li>
+      <li><strong>Decontamination:</strong> A clay bar treatment is used to remove contaminants such as dirt, brake dust, and industrial fallout from the surface of the paint.</li>
+      <li><strong>Polishing:</strong> Our technicians use machine polishers and a range of cutting compounds to remove surface imperfections. This multi-stage process ensures every imperfection is buffed out.</li>
+      <li><strong>Refining:</strong> Once the imperfections are removed, we use a fine polish to enhance the depth and clarity of the paint.</li>
+      <li><strong>Protection:</strong> To maintain the newly corrected paint, we recommend applying our Ceramic Coating, which provides long-term protection and a high-gloss finish.</li>
+  </ul>
+
+  <h2>Benefits of Paint Correction</h2>
+  <ul>
+      <li><strong>Enhanced Appearance:</strong> Say goodbye to dull, faded paint. Our process restores depth, clarity, and shine to your car’s exterior.</li>
+      <li><strong>Increased Value:</strong> Paint correction can add significant value to your vehicle, making it more attractive to potential buyers if you decide to sell.</li>
+      <li><strong>Long-Term Protection:</strong> When paired with our ceramic coating, your newly corrected paint will stay protected from Miami’s harsh environmental conditions.</li>
+  </ul>
+
+  <h2>Why Choose Soflo Suds for Paint Correction?</h2>
+  <ul>
+      <li><strong>Expert Technicians:</strong> Our team has years of experience in correcting even the most damaged paint.</li>
+      <li><strong>Advanced Techniques:</strong> We use the latest tools and polishing compounds to ensure a flawless finish.</li>
+      <li><strong>Tailored Solutions:</strong> Each vehicle is different, and we provide customized paint correction plans based on your car’s needs.</li>
+  </ul>
+
+  <h2>Book Your Paint Correction Service Today!</h2>
+  <p>Don’t let imperfections ruin your car’s appearance. <strong>Schedule a paint correction service</strong> at <a href="https://soflosuds.com/">Soflo Suds Auto Detailing</a> and Ceramic Coating today, and enjoy the benefits of a pristine finish that turns heads across Miami.</p>
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+      <div class="left">
+        <p>About Our Company</p>
+        <p>Our company, SoFlo Suds, specializes in mobile auto detailing and ceramic coating services in Miami, FL. We offer top-tier exterior and interior detailing, paint correction, and ceramic coatings for cars, boats, and RVs, all delivered conveniently to your location.</p>
+      </div>
+      <div class="right">
+        <p><strong>Our Location:</strong> 1299 W 72nd St, Hialeah, FL 33014, United States</p>
+        <p><strong>Phone:</strong> +1 (305)912-9212</p>
+        <p><strong>Email:</strong> support@soflosuds.com</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
