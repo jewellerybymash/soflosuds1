@@ -6,8 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="ZwFoNypImBjm5Agh5kNB1q1d_PFXx7rmL5eoX7owPKo" />
-  <title>Interior Car Detailing</title>
+<meta name="google-site-verification" content="jI7tc73CYAIsbKoMJkDOQJCyZcAQqUcGYB9SxY4lPyE" />  <title>Interior Car Detailing</title>
   <style>
     * {
       margin: 0;
