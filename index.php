@@ -982,7 +982,7 @@ background: white;
 
 <p><a class="  allShow" href="https://soflosuds.com/interior-auto-detailing-miami/" rel="nofollow" target="_blank">More Info</a></p>
 <p><a class="  allShow" href="https://en.wikipedia.org/wiki/Hialeah,_Florida" rel="nofollow" target="_blank">More About Hialeah, Fl</a></p>
-<p><a class="  allShow" href=" https://soflosuds.s3.eu-north-1.amazonaws.com/soflosuds/index.html"  target="_blank">Additional Information</a></p>
+<p><a class="  allShow" href=" https://soflosuds.netlify.app/"  target="_blank">Additional Information</a></p>
 <p><a class="  allShow"  href="" rel="nofollow" target="_blank"></a></p>
   <p><a class="  allShow"  href=""  target="_blank"></a></p>
 </div>
